@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Usuarios</string>
+    <string name="users">Usuarios</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="details">Detalles</string>
+    <string name="error_donwloading_users">Error al descargar los datos</string>
+    <string name="permission_not_accepted">No se podrá guardar el contacto hasta que no aceptes los permisos</string>
+    <string name="contact_saved">Contacto guardado</string>
+    <string name="contact_not_saved">No se ha podido guardar el contacto</string>
+    <string name="add_contact_title">Agregar contacto</string>
+    <string name="want_add_contact_phone_book">¿Desea agregar este contacto a su teléfono?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="add_contact">Agregar contacto</string>
+    <string name="show_qr">Mostrar QR</string>
+    <string name="contact_info">Contacto</string>
+    <string name="localization_info">Localización</string>
+</resources>
