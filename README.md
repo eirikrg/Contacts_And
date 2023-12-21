@@ -1,0 +1,1 @@
+Implementación de arquitectura CLEAN y patrones de diseño MVVM, Datasource / Repository en una App que obitene datos del API pública "https://randomuser.me/api/" para poder almacenarlos en tu teléfono u obtener un QR con los datos del usuario
