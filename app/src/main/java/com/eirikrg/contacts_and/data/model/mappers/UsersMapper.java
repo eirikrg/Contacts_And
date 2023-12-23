@@ -1,17 +1,6 @@
 package com.eirikrg.contacts_and.data.model.mappers;
 
 
-import com.eirikrg.domain.entities.user.Coordinates;
-import com.eirikrg.domain.entities.user.Dob;
-import com.eirikrg.domain.entities.user.Id;
-import com.eirikrg.domain.entities.user.Location;
-import com.eirikrg.domain.entities.user.Login;
-import com.eirikrg.domain.entities.user.Name;
-import com.eirikrg.domain.entities.user.Picture;
-import com.eirikrg.domain.entities.user.Registered;
-import com.eirikrg.domain.entities.user.Street;
-import com.eirikrg.domain.entities.user.Timezone;
-import com.eirikrg.domain.entities.user.User;
 import com.eirikrg.contacts_and.data.model.UsersApiResponse;
 import com.eirikrg.contacts_and.data.model.user.CoordinatesModel;
 import com.eirikrg.contacts_and.data.model.user.DobModel;
@@ -23,6 +12,17 @@ import com.eirikrg.contacts_and.data.model.user.PictureModel;
 import com.eirikrg.contacts_and.data.model.user.RegisteredModel;
 import com.eirikrg.contacts_and.data.model.user.StreetModel;
 import com.eirikrg.contacts_and.data.model.user.TimezoneModel;
+import com.eirikrg.domain.entities.user.Coordinates;
+import com.eirikrg.domain.entities.user.Dob;
+import com.eirikrg.domain.entities.user.Id;
+import com.eirikrg.domain.entities.user.Location;
+import com.eirikrg.domain.entities.user.Login;
+import com.eirikrg.domain.entities.user.Name;
+import com.eirikrg.domain.entities.user.Picture;
+import com.eirikrg.domain.entities.user.Registered;
+import com.eirikrg.domain.entities.user.Street;
+import com.eirikrg.domain.entities.user.Timezone;
+import com.eirikrg.domain.entities.user.User;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -30,8 +30,9 @@ import java.util.stream.Collectors;
 /**
  * Mapper de UserModel a User de la capa de dominio
  */
-public class UsersMapper {
+public class UsersMapper implements Mapper<UsersApiResponse, List<User>> {
 
+    @Override
     public List<User> mapToDomain(UsersApiResponse usersApiResponse) {
         return usersApiResponse.getResults().stream().map(apiUserModel -> new User(
                 apiUserModel.getGender(),
