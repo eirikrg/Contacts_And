@@ -2,143 +2,153 @@ package com.eirikrg.contacts_and.data.model.user;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-
 import java.io.Serializable;
 
 public class UserModel implements Serializable {
 
-    private final static long serialVersionUID = -5644762896821011956L;
-    @SerializedName("gender")
-    @Expose
-    private String gender;
-    @SerializedName("name")
-    @Expose
-    private NameModel name;
-    @SerializedName("location")
-    @Expose
-    private LocationModel location;
-    @SerializedName("email")
-    @Expose
-    private String email;
-    @SerializedName("login")
-    @Expose
-    private LoginModel login;
-    @SerializedName("dob")
-    @Expose
-    private DobModel dob;
-    @SerializedName("registered")
-    @Expose
-    private RegisteredModel registered;
-    @SerializedName("phone")
-    @Expose
-    private String phone;
-    @SerializedName("cell")
-    @Expose
-    private String cell;
-    @SerializedName("id")
-    @Expose
-    private IdModel id;
-    @SerializedName("picture")
-    @Expose
-    private PictureModel picture;
-    @SerializedName("nat")
-    @Expose
-    private String nat;
+  private static final long serialVersionUID = -5644762896821011956L;
 
-    public String getGender() {
-        return gender;
-    }
+  @SerializedName("gender")
+  @Expose
+  private String gender;
 
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
+  @SerializedName("name")
+  @Expose
+  private NameModel name;
 
-    public NameModel getName() {
-        return name;
-    }
+  @SerializedName("location")
+  @Expose
+  private LocationModel location;
 
-    public void setName(NameModel name) {
-        this.name = name;
-    }
+  @SerializedName("email")
+  @Expose
+  private String email;
 
-    public LocationModel getLocation() {
-        return location;
-    }
+  @SerializedName("login")
+  @Expose
+  private LoginModel login;
 
-    public void setLocation(LocationModel location) {
-        this.location = location;
-    }
+  @SerializedName("dob")
+  @Expose
+  private DobModel dob;
 
-    public String getEmail() {
-        return email;
-    }
+  @SerializedName("registered")
+  @Expose
+  private RegisteredModel registered;
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+  @SerializedName("phone")
+  @Expose
+  private String phone;
 
-    public LoginModel getLogin() {
-        return login;
-    }
+  @SerializedName("cell")
+  @Expose
+  private String cell;
 
-    public void setLogin(LoginModel login) {
-        this.login = login;
-    }
+  @SerializedName("id")
+  @Expose
+  private IdModel id;
 
-    public DobModel getDob() {
-        return dob;
-    }
+  @SerializedName("picture")
+  @Expose
+  private PictureModel picture;
 
-    public void setDob(DobModel dob) {
-        this.dob = dob;
-    }
+  @SerializedName("nat")
+  @Expose
+  private String nat;
 
-    public RegisteredModel getRegistered() {
-        return registered;
-    }
+  public String getGender() {
+    return gender;
+  }
 
-    public void setRegistered(RegisteredModel registered) {
-        this.registered = registered;
-    }
+  public void setGender(String gender) {
+    this.gender = gender;
+  }
 
-    public String getPhone() {
-        return phone;
-    }
+  public NameModel getName() {
+    return name;
+  }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
+  public void setName(NameModel name) {
+    this.name = name;
+  }
 
-    public String getCell() {
-        return cell;
-    }
+  public LocationModel getLocation() {
+    return location;
+  }
 
-    public void setCell(String cell) {
-        this.cell = cell;
-    }
+  public void setLocation(LocationModel location) {
+    this.location = location;
+  }
 
-    public IdModel getId() {
-        return id;
-    }
+  public String getEmail() {
+    return email;
+  }
 
-    public void setId(IdModel id) {
-        this.id = id;
-    }
+  public void setEmail(String email) {
+    this.email = email;
+  }
 
-    public PictureModel getPicture() {
-        return picture;
-    }
+  public LoginModel getLogin() {
+    return login;
+  }
 
-    public void setPicture(PictureModel picture) {
-        this.picture = picture;
-    }
+  public void setLogin(LoginModel login) {
+    this.login = login;
+  }
 
-    public String getNat() {
-        return nat;
-    }
+  public DobModel getDob() {
+    return dob;
+  }
 
-    public void setNat(String nat) {
-        this.nat = nat;
-    }
+  public void setDob(DobModel dob) {
+    this.dob = dob;
+  }
 
+  public RegisteredModel getRegistered() {
+    return registered;
+  }
+
+  public void setRegistered(RegisteredModel registered) {
+    this.registered = registered;
+  }
+
+  public String getPhone() {
+    return phone;
+  }
+
+  public void setPhone(String phone) {
+    this.phone = phone;
+  }
+
+  public String getCell() {
+    return cell;
+  }
+
+  public void setCell(String cell) {
+    this.cell = cell;
+  }
+
+  public IdModel getId() {
+    return id;
+  }
+
+  public void setId(IdModel id) {
+    this.id = id;
+  }
+
+  public PictureModel getPicture() {
+    return picture;
+  }
+
+  public void setPicture(PictureModel picture) {
+    this.picture = picture;
+  }
+
+  public String getNat() {
+    return nat;
+  }
+
+  public void setNat(String nat) {
+    this.nat = nat;
+  }
 }

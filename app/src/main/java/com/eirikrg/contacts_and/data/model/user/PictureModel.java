@@ -5,38 +5,39 @@ import com.google.gson.annotations.SerializedName;
 
 public class PictureModel {
 
-    @SerializedName("large")
-    @Expose
-    private String large;
-    @SerializedName("medium")
-    @Expose
-    private String medium;
-    @SerializedName("thumbnail")
-    @Expose
-    private String thumbnail;
+  @SerializedName("large")
+  @Expose
+  private String large;
 
-    public String getLarge() {
-        return large;
-    }
+  @SerializedName("medium")
+  @Expose
+  private String medium;
 
-    public void setLarge(String large) {
-        this.large = large;
-    }
+  @SerializedName("thumbnail")
+  @Expose
+  private String thumbnail;
 
-    public String getMedium() {
-        return medium;
-    }
+  public String getLarge() {
+    return large;
+  }
 
-    public void setMedium(String medium) {
-        this.medium = medium;
-    }
+  public void setLarge(String large) {
+    this.large = large;
+  }
 
-    public String getThumbnail() {
-        return thumbnail;
-    }
+  public String getMedium() {
+    return medium;
+  }
 
-    public void setThumbnail(String thumbnail) {
-        this.thumbnail = thumbnail;
-    }
+  public void setMedium(String medium) {
+    this.medium = medium;
+  }
 
+  public String getThumbnail() {
+    return thumbnail;
+  }
+
+  public void setThumbnail(String thumbnail) {
+    this.thumbnail = thumbnail;
+  }
 }

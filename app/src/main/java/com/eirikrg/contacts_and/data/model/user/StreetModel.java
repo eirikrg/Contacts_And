@@ -5,27 +5,27 @@ import com.google.gson.annotations.SerializedName;
 
 public class StreetModel {
 
-    @SerializedName("number")
-    @Expose
-    private Integer number;
-    @SerializedName("name")
-    @Expose
-    private String name;
+  @SerializedName("number")
+  @Expose
+  private Integer number;
 
-    public Integer getNumber() {
-        return number;
-    }
+  @SerializedName("name")
+  @Expose
+  private String name;
 
-    public void setNumber(Integer number) {
-        this.number = number;
-    }
+  public Integer getNumber() {
+    return number;
+  }
 
-    public String getName() {
-        return name;
-    }
+  public void setNumber(Integer number) {
+    this.number = number;
+  }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+  public String getName() {
+    return name;
+  }
 
+  public void setName(String name) {
+    this.name = name;
+  }
 }

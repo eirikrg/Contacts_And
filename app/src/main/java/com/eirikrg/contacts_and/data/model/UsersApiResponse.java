@@ -8,27 +8,27 @@ import java.util.List;
 
 public class UsersApiResponse {
 
-    @SerializedName("results")
-    @Expose
-    private List<UserModel> results;
-    @SerializedName("info")
-    @Expose
-    private Info info;
+  @SerializedName("results")
+  @Expose
+  private List<UserModel> results;
 
-    public List<UserModel> getResults() {
-        return results;
-    }
+  @SerializedName("info")
+  @Expose
+  private Info info;
 
-    public void setResults(List<UserModel> results) {
-        this.results = results;
-    }
+  public List<UserModel> getResults() {
+    return results;
+  }
 
-    public Info getInfo() {
-        return info;
-    }
+  public void setResults(List<UserModel> results) {
+    this.results = results;
+  }
 
-    public void setInfo(Info info) {
-        this.info = info;
-    }
+  public Info getInfo() {
+    return info;
+  }
 
+  public void setInfo(Info info) {
+    this.info = info;
+  }
 }
