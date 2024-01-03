@@ -5,27 +5,27 @@ import com.google.gson.annotations.SerializedName;
 
 public class TimezoneModel {
 
-    @SerializedName("offset")
-    @Expose
-    private String offset;
-    @SerializedName("description")
-    @Expose
-    private String description;
+  @SerializedName("offset")
+  @Expose
+  private String offset;
 
-    public String getOffset() {
-        return offset;
-    }
+  @SerializedName("description")
+  @Expose
+  private String description;
 
-    public void setOffset(String offset) {
-        this.offset = offset;
-    }
+  public String getOffset() {
+    return offset;
+  }
 
-    public String getDescription() {
-        return description;
-    }
+  public void setOffset(String offset) {
+    this.offset = offset;
+  }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+  public String getDescription() {
+    return description;
+  }
 
+  public void setDescription(String description) {
+    this.description = description;
+  }
 }

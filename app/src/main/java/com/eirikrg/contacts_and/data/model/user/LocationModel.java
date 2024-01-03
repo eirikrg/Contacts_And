@@ -5,82 +5,87 @@ import com.google.gson.annotations.SerializedName;
 
 public class LocationModel {
 
-    @SerializedName("street")
-    @Expose
-    private StreetModel street;
-    @SerializedName("city")
-    @Expose
-    private String city;
-    @SerializedName("state")
-    @Expose
-    private String state;
-    @SerializedName("country")
-    @Expose
-    private String country;
-    @SerializedName("postcode")
-    @Expose
-    private String postcode;
-    @SerializedName("coordinates")
-    @Expose
-    private CoordinatesModel coordinates;
-    @SerializedName("timezone")
-    @Expose
-    private TimezoneModel timezone;
+  @SerializedName("street")
+  @Expose
+  private StreetModel street;
 
-    public StreetModel getStreet() {
-        return street;
-    }
+  @SerializedName("city")
+  @Expose
+  private String city;
 
-    public void setStreet(StreetModel street) {
-        this.street = street;
-    }
+  @SerializedName("state")
+  @Expose
+  private String state;
 
-    public String getCity() {
-        return city;
-    }
+  @SerializedName("country")
+  @Expose
+  private String country;
 
-    public void setCity(String city) {
-        this.city = city;
-    }
+  @SerializedName("postcode")
+  @Expose
+  private String postcode;
 
-    public String getState() {
-        return state;
-    }
+  @SerializedName("coordinates")
+  @Expose
+  private CoordinatesModel coordinates;
 
-    public void setState(String state) {
-        this.state = state;
-    }
+  @SerializedName("timezone")
+  @Expose
+  private TimezoneModel timezone;
 
-    public String getCountry() {
-        return country;
-    }
+  public StreetModel getStreet() {
+    return street;
+  }
 
-    public void setCountry(String country) {
-        this.country = country;
-    }
+  public void setStreet(StreetModel street) {
+    this.street = street;
+  }
 
-    public String getPostcode() {
-        return postcode;
-    }
+  public String getCity() {
+    return city;
+  }
 
-    public void setPostcode(String postcode) {
-        this.postcode = postcode;
-    }
+  public void setCity(String city) {
+    this.city = city;
+  }
 
-    public CoordinatesModel getCoordinates() {
-        return coordinates;
-    }
+  public String getState() {
+    return state;
+  }
 
-    public void setCoordinates(CoordinatesModel coordinates) {
-        this.coordinates = coordinates;
-    }
+  public void setState(String state) {
+    this.state = state;
+  }
 
-    public TimezoneModel getTimezone() {
-        return timezone;
-    }
+  public String getCountry() {
+    return country;
+  }
 
-    public void setTimezone(TimezoneModel timezone) {
-        this.timezone = timezone;
-    }
+  public void setCountry(String country) {
+    this.country = country;
+  }
 
+  public String getPostcode() {
+    return postcode;
+  }
+
+  public void setPostcode(String postcode) {
+    this.postcode = postcode;
+  }
+
+  public CoordinatesModel getCoordinates() {
+    return coordinates;
+  }
+
+  public void setCoordinates(CoordinatesModel coordinates) {
+    this.coordinates = coordinates;
+  }
+
+  public TimezoneModel getTimezone() {
+    return timezone;
+  }
+
+  public void setTimezone(TimezoneModel timezone) {
+    this.timezone = timezone;
+  }
 }

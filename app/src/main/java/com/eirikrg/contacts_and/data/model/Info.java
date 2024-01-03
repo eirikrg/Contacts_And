@@ -5,49 +5,51 @@ import com.google.gson.annotations.SerializedName;
 
 public class Info {
 
-    @SerializedName("seed")
-    @Expose
-    private String seed;
-    @SerializedName("results")
-    @Expose
-    private Integer results;
-    @SerializedName("page")
-    @Expose
-    private Integer page;
-    @SerializedName("version")
-    @Expose
-    private String version;
+  @SerializedName("seed")
+  @Expose
+  private String seed;
 
-    public String getSeed() {
-        return seed;
-    }
+  @SerializedName("results")
+  @Expose
+  private Integer results;
 
-    public void setSeed(String seed) {
-        this.seed = seed;
-    }
+  @SerializedName("page")
+  @Expose
+  private Integer page;
 
-    public Integer getResults() {
-        return results;
-    }
+  @SerializedName("version")
+  @Expose
+  private String version;
 
-    public void setResults(Integer results) {
-        this.results = results;
-    }
+  public String getSeed() {
+    return seed;
+  }
 
-    public Integer getPage() {
-        return page;
-    }
+  public void setSeed(String seed) {
+    this.seed = seed;
+  }
 
-    public void setPage(Integer page) {
-        this.page = page;
-    }
+  public Integer getResults() {
+    return results;
+  }
 
-    public String getVersion() {
-        return version;
-    }
+  public void setResults(Integer results) {
+    this.results = results;
+  }
 
-    public void setVersion(String version) {
-        this.version = version;
-    }
+  public Integer getPage() {
+    return page;
+  }
 
+  public void setPage(Integer page) {
+    this.page = page;
+  }
+
+  public String getVersion() {
+    return version;
+  }
+
+  public void setVersion(String version) {
+    this.version = version;
+  }
 }

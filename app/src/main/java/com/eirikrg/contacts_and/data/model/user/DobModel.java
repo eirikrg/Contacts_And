@@ -3,30 +3,29 @@ package com.eirikrg.contacts_and.data.model.user;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-
 public class DobModel {
 
-    @SerializedName("date")
-    @Expose
-    private String date;
-    @SerializedName("age")
-    @Expose
-    private Integer age;
+  @SerializedName("date")
+  @Expose
+  private String date;
 
-    public String getDate() {
-        return date;
-    }
+  @SerializedName("age")
+  @Expose
+  private Integer age;
 
-    public void setDate(String date) {
-        this.date = date;
-    }
+  public String getDate() {
+    return date;
+  }
 
-    public Integer getAge() {
-        return age;
-    }
+  public void setDate(String date) {
+    this.date = date;
+  }
 
-    public void setAge(Integer age) {
-        this.age = age;
-    }
+  public Integer getAge() {
+    return age;
+  }
 
+  public void setAge(Integer age) {
+    this.age = age;
+  }
 }

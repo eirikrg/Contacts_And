@@ -5,38 +5,39 @@ import com.google.gson.annotations.SerializedName;
 
 public class NameModel {
 
-    @SerializedName("title")
-    @Expose
-    private String title;
-    @SerializedName("first")
-    @Expose
-    private String first;
-    @SerializedName("last")
-    @Expose
-    private String last;
+  @SerializedName("title")
+  @Expose
+  private String title;
 
-    public String getTitle() {
-        return title;
-    }
+  @SerializedName("first")
+  @Expose
+  private String first;
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+  @SerializedName("last")
+  @Expose
+  private String last;
 
-    public String getFirst() {
-        return first;
-    }
+  public String getTitle() {
+    return title;
+  }
 
-    public void setFirst(String first) {
-        this.first = first;
-    }
+  public void setTitle(String title) {
+    this.title = title;
+  }
 
-    public String getLast() {
-        return last;
-    }
+  public String getFirst() {
+    return first;
+  }
 
-    public void setLast(String last) {
-        this.last = last;
-    }
+  public void setFirst(String first) {
+    this.first = first;
+  }
 
+  public String getLast() {
+    return last;
+  }
+
+  public void setLast(String last) {
+    this.last = last;
+  }
 }
